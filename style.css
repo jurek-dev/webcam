@@ -6,6 +6,12 @@ button {
     left: 50%;
     bottom: 20%;
     transform: translateX(-50%);
+    background-color: black;
+    border: 4px solid white;
+}
+
+button:active {
+    border: 4px solid black;
 }
 
 main {
